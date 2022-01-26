@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>선택자</title>
+    <style>
+        /*전체 선택자*/
+        * {
+            margin: 0;
+        }
+
+        /*타입 선택자*/
+        p {
+            font-style: italic;
+        }
+
+        /*클래스 선택자*/
+        .accent {
+            border: 1px solid #000; /*테두리*/
+            padding: 5px; /*테두리와 내용 사이의 여백*/
+        }
+        .bg {
+            background-color: #ddd; /*배경색*/
+        }
+
+        /*id 선택자*/
+        #container{
+            width: 500px;             /*너비*/
+            margin: 10px auto;        /*중앙 배치*/
+            padding: 10px;            /*테두리와 내용 사이 여백*/
+            border: 1px solid #000; /*테두리 굵기와 색깔*/
+        }
+
+        /*그룹 선택자*/
+        h1, p{
+            text-align: center; /*중앙 정렬*/
+        }
+    </style>
+</head>
+<body>
+    <img src="images/cat.jpg" alt="고양이">
+    <hr>
+
+    <h2>타입 선택자</h2>
+    <p>타입 선택자의 적용을 받은 상태</p>
+    <p>모든 p 요소에 스타일이 적용됨</p>
+    <hr>
+
+    <h2 class="accent bg">클래스 선택자</h2>
+    <p>클래스 선택자의 <span class="accent">적용을 받은</span>상태</p>
+    <p>이것 또한 클래스 선택자의 <strong class="bg">적용을 받은</strong>상태</p>
+    <hr>
+
+    <div id="container">
+        <h2>id 선택자</h2><br>
+        <p>id 선택자가 적용된 상태</p><br>
+        <p>너비, 중앙배치, 테두리와 내용 사이 여백, 테두리 굵기와 색깔을 지정해놓은 상태</p>
+    </div>
+    <hr>
+    
+    <h1>그룹 선택자</h1>
+    <p>그룹 선택자를 사용하여 h1태그와 p태그를 중앙에 정렬시킴</p>
+</body>
+</html>
