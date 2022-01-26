@@ -6,7 +6,7 @@
 ### CSS의 기본 선택자 : selector.html
 ### 캐스케이딩 스타일 시트 : style.html
 ---
-## text_styel : 텍스트를 표현하는 다양한 스타일
+## text_style : 텍스트를 표현하는 다양한 스타일
 ### 글꼴 관련 스타일 : fontstyle.html
 ### 웹 폰트 사용하기 : webfont.html
 ### 텍스트 색상 : text_color.html
