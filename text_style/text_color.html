@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>텍스트 색</title>
+    <style>
+        h2 {
+      background:url('images/bg.jpg') no-repeat fixed;
+      background-size:cover;
+      text-align:center;
+      font-size:160px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+        h1{
+            color: #0000ff;     /*16 진수 표기법*/
+        }
+
+        p{
+            color: green;       /*색상 이름*/
+        }
+
+        .accent{
+            color: hsl(0,100%,50%); /*hsl 표기법*/
+            font-weight: bold;
+        }
+        
+        .color1{
+            color: rgb(0,0,255);    /*rgb 표기법*/
+        }
+
+        .color2{
+            color: rgba(0,0,255,0.5);   /*rgba 표기법*/
+        }
+    </style>
+</head>
+<body>
+    <h1>레드향</h1>
+    <p>껍질에 붉은 빛이 돌아 <span class="accent">레드향</span>이라 불린다.</p>
+    <p>레드향은 한라봉과 귤을 교배한 것으로</p>
+    <p>일반 귤보다 2~3배 크고, 과육이 붉고 통통하다.</p>
+    <hr>
+    <h2 class="color1">HTML</h2>
+    <h2 class="color2">CSS</h2>
+</body>
+</html>
